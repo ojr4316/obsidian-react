@@ -1,0 +1,19 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"version": [1, 0, 1],
+		"uuid": "${id}",
+		"lock_template_options": true,
+		"base_game_version": [1, 16, 0]
+	},
+	"modules": [{
+		"version": [1, 0, 1],
+		"type": "world_template",
+		"uuid": "${id2}"
+	}],
+	"metadata": {
+		"authors": ["Podcrash"]
+	}
+}
